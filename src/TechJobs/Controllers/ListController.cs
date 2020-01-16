@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using TechJobs.Models;
@@ -16,7 +16,7 @@ namespace TechJobs.Controllers
             
             columnChoices.Add("core competency", "Skill");
             columnChoices.Add("employer", "Employer");
-            columnChoices.Add("location", "Location");
+            columnChoices.Add("location", "Location");                                                                                                                                                                                      
             columnChoices.Add("position type", "Position Type");
             columnChoices.Add("all", "All");
         }

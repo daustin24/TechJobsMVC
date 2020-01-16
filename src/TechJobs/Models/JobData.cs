@@ -80,6 +80,7 @@ namespace TechJobs.Models
          * For example, searching for employer "Enterprise" will include results
          * with "Enterprise Holdings, Inc".
          */
+
         public static List<Dictionary<string, string>> FindByColumnAndValue(string column, string value)
         {
             // load data, if not already loaded
